@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All User</title>
+    <!-- <link rel="stylesheet" href="../public/bootstrap-5.2.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../public/stylesheets/styleUser.css" /> -->
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./stylesheets/styleUser.css" />
+  </head>
+  <body>
+   
+        <div class="" style="background: white; width: 80%; text-align: center; margin: auto; margin-top: 50px; padding: 30px">
+        <div class="">
+            <div class="">
+                <label for="username" class="form-label">Halaman All User</label>
+                
+                <form action="/allUser" method="POST">
+                    <h5>Tambah Biodata User</h5>
+
+                <div class="row">
+                    <div class="col-3" style="text-align: right;">
+                        <label>Nama User</label>
+                    </div>
+                    <div class="col-6" style="text-align: center;">
+                        <input type="text" name="name" style="width: 100%;"></input>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-3" style="text-align: right;">
+                        <label>Umur</label>
+                    </div>
+                    <div class="col-6" style="text-align: center;">
+                        <input type="text" name="age" style="width: 100%;"></input>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-3" style="text-align: right;">
+                        <label>Email</label>
+                    </div>
+                    <div class="col-6" style="text-align: center;">
+                        <input type="email" name="email" style="width: 100%;"></input>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-3" style="text-align: right;">
+                        <label>Asal Negara</label>
+                    </div>
+                    <div class="col-6" style="text-align: center;">
+                        <input type="text" name="country" style="width: 100%;"></input>
+                    </div>
+                </div>
+
+                <br>
+            
+                <a href="/user">
+                    <button type="button" class="btn btn-primary">Back</button>
+                </a>
+                
+                <button type="submit" class="btn btn-primary" value="Submit">Submit New Biodata User</button>
+           
+                 <div >
+                    <table border="2" style="width: 100%;">
+                        <tr>
+                            <td>ID User</td>
+                            <td>Nama</td>
+                            <td>Umur</td>
+                            <td>Email</td>
+                            <td>Negara Asal</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <% data.forEach(i => { %>
+                        <tr>
+                            <td><%= i.ID_user  %></td>
+                            <td><%= i.name %></td>
+                            <td><%= i.age %></td>
+                            <td><%= i.email %></td>
+                            <td><%= i.country %></td>
+                            <td><input formaction="/allUser/edit?id=<% i.ID_user %>" type="submit" value="Edit"></input></td>
+                            <td><input formaction="/allUser/delete?id=<% i.ID_user %>" type="submit" value="Delete"></input></td>
+                        </tr>
+                        <% }) %>
+                    </table>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

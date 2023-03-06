@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissor</title>
+        <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./stylesheets/styleGame.css">
+</head>
+<body>
+    <div style="width: 100%; text-align: left;">
+      <div class="row" style="padding-right: 0; padding-right: 0;">
+        <div class="col-1">
+          <a href="/">
+           <h1> < </h1>
+         </a>
+       </div>
+      <div class="col-1">
+        <img src="./images/assets/logo.png" alt="logo" style="width: 50px; height: 50px;">
+      </div>
+      <div class="col-10" style="padding-top: 10px;">
+        ROCK PAPER SCISSOR
+      </div>
+    </div>
+  </div>
+    
+    <div class="container-player-label" style="margin-left: auto; margin-right: auto;">
+        <div class="row" style="padding-right: 0; padding-right: 0;">
+          <div class="col-5">
+            <h4 style="font-size: 20px; text-align: right; color: black; padding-right: 20%; font-weight: bold;">
+              PLAYER 1
+            </h4>
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-5">
+            <h4 style="font-size: 20px; text-align: left; color: black; padding-left: 22%; font-weight: bold;">
+              COM
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-icon-rock" style="margin-left: auto; margin-right: auto; padding-top: 3%; margin-bottom: 5%;">
+        <div class="row" style="padding-right: 0; padding-right: 0;">
+          <div class="col-5" style="text-align: right; padding-right: 9%;">
+            <button id="rock-btn" class="btn-suit">
+              <img src="./images/assets/batu.png" alt="batu-player" style="width: 100px; height: 100px;">
+            </button>
+            
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-5" style="padding-left: 8%;">
+            <button id="rock-com-btn" class="btn-suit">
+              <img src="./images/assets/batu.png" alt="batu-com" style="width: 100px; height: 100px; ">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-icon-paper" style="margin-left: auto; margin-right: auto; margin-bottom: 5%;">
+        <div class="row" style="padding-right: 10%; padding-right: 0;">
+          <div class="col-5" style="text-align: right; padding-right: 9%;">
+            <button id="paper-btn" class="btn-suit">
+              <img src="./images/assets/kertas.png" alt="batu-player" style="width: 100px; height: 100px;">
+            </button>
+           
+          </div>
+          <div class="col-2" style="text-align: center;">
+                <h1 id="result-label">
+                    VS
+                </h1>
+          </div>
+          <div class="col-5" style="padding-left: 8%;">
+            <button id="paper-com-btn" class="btn-suit">
+              <img src="./images/assets/kertas.png" alt="batu-com" style="width: 100px; height: 100px;">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-icon-scissor" style="margin-left: auto; margin-right: auto;     ">
+        <div class="row" style="padding-right: 10%; padding-right: 0;">
+          <div class="col-5" style="text-align: right; padding-right: 9%;">
+            <button id="scissor-btn" class="btn-suit">
+              <img src="./images/assets/gunting.png" alt="batu-player" style="width: 100px; height: 100px;">
+            </button>
+            
+          </div>
+          <div class="col-2">
+
+          </div>
+          <div class="col-5" style="padding-left: 8%;">
+            <button id="scissor-com-btn" class="btn-suit">
+              <img src="./images/assets/gunting.png" alt="batu-com" style="width: 100px; height: 100px;">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 100%; text-align: center;">
+        <button id="reset-btn" class="btn-suit">
+          <img src="./images/assets/refresh.png" alt="refresh" style="width: 50px; height: 50px; ">
+        </button>
+        
+      </div>
+
+<script src="./javascripts/script.js"></script>
+<script src="./bootstrap-5.2.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

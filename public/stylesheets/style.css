@@ -1,0 +1,197 @@
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.containers{
+  width: 100%;
+  height: 100%;
+  margin: 0 ;
+  padding: 0;
+}
+
+.home{
+  background-image: url(../images/assets/main-bg.jpg) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.the-game{
+  background-image: url(../images/assets/the-games-bg.jpg) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.features{
+  background-image: url(../images/assets/features.jpg) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.requirements{
+  background-image: url(../images/assets/requirements.png) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.top-score{
+  background-image: url(../images/assets/top-score-bg.png) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+} 
+
+.newsletter{
+  background-image: url(../images/assets/newsletter.png) ;
+  background-size: 100% 100%; 
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*=========== Home ===========*/
+
+.home-title{
+  font-size: 70px;
+}
+
+.home-tagline{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.home button{
+  font-weight: bold;
+}
+
+/*=========== The Game ===========*/
+
+.the-game{
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.the-game h5{
+  color: white;
+}
+
+.bottom-sections{
+  height: 80%;
+}
+
+.the-game .bottom-sections h1{
+  color: white;
+  font-size: 50px;
+  margin-top: 0px;
+}
+
+
+
+/*=========== Requirements ===========*/
+
+.requirements{
+  width: 100%;
+  height: 100%;
+}
+
+.requirements .top-sentence{
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.requirements .top-sentence h6{
+  font-size: 15px;
+}
+
+.container-table{
+  color: white;
+  width: 50%; 
+  text-align: start; 
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.container-table .h1{
+  size: 500px;
+}
+
+.requirement-os-description h6{
+  color: white;
+}
+
+.row-middle-2{
+  margin-top: 30px;
+}
+
+.row-bottom{
+  margin-top: 30px;
+}
+
+
+
+
+/*=========== Newsletter ===========*/
+
+.newsletter{
+  height: 100%;
+  
+}
+
+.container-newsletter-top {
+  height: 70%;
+  padding-left: 20%;
+  padding-right: 10%;
+ 
+}
+
+.img-newsletter{
+  height: 50%;
+}
+
+.line-1{
+  color: white;
+  padding-top: 10%;
+}
+
+.line-2-h1{
+  color: white;
+}
+
+.line-3{
+  color: white;
+}
+
+.newsletter .container-bawah h4{
+  color: white;
+}
+
+.newsletter button{
+  font-weight: bold;
+}
+
+

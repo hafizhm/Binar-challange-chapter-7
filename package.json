@@ -1,0 +1,43 @@
+{
+  "name": "challange",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon home.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.9.0",
+    "sequelize": "^6.29.0"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://challange5:glpat-qdoAa6hFPRCfporHTeoV@gitlab.com/hafizhmuhammad475/BinarChallange-Chapter-5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hafizhmuhammad475/BinarChallange-Chapter-5/issues"
+  },
+  "homepage": "https://gitlab.com/hafizhmuhammad475/BinarChallange-Chapter-5#readme",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
